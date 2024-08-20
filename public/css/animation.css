@@ -7,3 +7,7 @@
     opacity: 0;
     transform: translateX(-100%); /* Moverá a imagem para a esquerda */
   }
+  #image.hidden1 {
+    opacity: 1;
+    transform: translateX(0); /* Moverá a imagem para a esquerda */
+  }

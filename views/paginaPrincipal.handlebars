@@ -17,9 +17,21 @@
 </div>
 <script src="./scripts/ajusteTela.js"></script>
 <script>
+    const images = document.querySelectorAll('.image');
+    let currentIndex = 0;
     document.getElementById('btnD').addEventListener('click', function() {
     const image = document.getElementById('image');
+    
+    image.classList.remove('hidden1');
+
     image.classList.add('hidden');
     });
+       document.getElementById('btnE').addEventListener('click', function() {
+    const image = document.getElementById('image');
+    image.classList.remove('hidden');
+    image.classList.add('hidden1')
+    });
+    
+
 
 </script>
