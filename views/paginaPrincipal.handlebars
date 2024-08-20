@@ -1,0 +1,25 @@
+<div class="conteudo">
+    <div class="logo somb">
+        <img src="./imgs/logoG.jpg" alt="" srcset="">
+    </div>
+    <div class="areaprincipal somb">
+        <div id="btnE" class="btnPrincipalEsquerda btnPHover"></div>
+        <div class="infomracoesP">
+            <img id="image" src="./imgs/lugarbonito.png" alt="" srcset="">
+        </div>
+        <div id="btnD" class="btnPrincipalDireita btnPHover"></div>
+    </div>
+    <div class="chat somb">
+        <div class="logoMensagem">
+            <img src="./imgs/logoM.png" alt="" srcset="">
+        </div>
+    </div>
+</div>
+<script src="./scripts/ajusteTela.js"></script>
+<script>
+    document.getElementById('btnD').addEventListener('click', function() {
+    const image = document.getElementById('image');
+    image.classList.add('hidden');
+    });
+
+</script>

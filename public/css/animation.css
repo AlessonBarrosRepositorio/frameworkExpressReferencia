@@ -1,0 +1,9 @@
+#image {
+    position: relative;
+    transition: all 1s ease; /* A transição ocorrerá em 1 segundo */
+  }
+  
+  #image.hidden {
+    opacity: 0;
+    transform: translateX(-100%); /* Moverá a imagem para a esquerda */
+  }

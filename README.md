@@ -5,7 +5,10 @@
 ## npm install sequelize
 ## npm install express
 ## npm install  mysql3
-# npm install handlebars
+## npm install expresss-handlebars
+## npm install connect-flash
+## npm install express-session
+# npm install body-parser
 
 ### npx sequelize-cli init
 
