@@ -10,7 +10,7 @@
         <div id="btnD" class="btnPrincipalDireita btnPHover"></div>
     </div>
     <div class="chat somb">
-        <div class="logoMensagem">
+        <div id="btnM" class="logoMensagem">
             <img src="./imgs/logoM.png" alt="" srcset="">
         </div>
     </div>
@@ -18,7 +18,7 @@
 <script src="./scripts/ajusteTela.js"></script>
 <script>
     const images = document.querySelectorAll('.image');
-    let currentIndex = 0;
+    const chat = document.querySelector('.chat');
     document.getElementById('btnD').addEventListener('click', function() {
     const image = document.getElementById('image');
     
