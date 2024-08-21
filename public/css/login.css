@@ -1,0 +1,62 @@
+.login{   
+    position: absolute; 
+    z-index: 9999;
+    width: 100%;
+    height: 100%;
+}
+.areaLogin{
+    width: 100%;
+    height: 100%;
+    background-color: #111a;
+    display:flex ;
+    align-items: center;
+    justify-content: center;
+}
+.conteudoLoginArea{
+    width: 30%;
+    height: 90%;
+    background-color: #000;
+    box-shadow: 1px 2px 6px #000;
+    margin: 10px solid #000;
+    border-radius:10px;
+    display:flex ;
+    align-items: center;
+    justify-content: center;
+}
+.conteudoLogin{
+    width: 98%;
+    height: 98%;
+    border-radius: 10px;
+    background-color: #fff;
+}
+.entraLogin{
+    width: 100%;
+    height: 33%;
+    border-radius:10px 10px 0 0;
+    display:flex ;
+    align-items: center;
+    justify-content: center;
+    flex-direction: column;
+    border-bottom: 1px solid #000;
+}
+.entraLogin>input,label{
+    margin: 0 0 2% 0;
+}
+.entraLogin>input{
+    width: 70%;
+    height: 20%;
+    border-radius: 10px;
+    border:2px solid #000;
+    padding: 10px;box-shadow: 1px 2px 6px #000;
+}
+.entraLogin>label,#entrarLoginS{
+    font-size: 30px;
+    font-weight: bolder;
+}
+#entrarLoginS{
+    width: 50%;
+}
+#entrarLoginS:hover{
+    background-color: #ccc;
+    color: #fff;
+}
