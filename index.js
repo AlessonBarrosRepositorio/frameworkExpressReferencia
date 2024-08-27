@@ -44,7 +44,8 @@ app.use(session({
 
 app.use(flash());
 
-app.get("/",paginaInicial.get)
+app.get("/",paginaInicial.get);
+app.post("/login",login.post);
 
 app.listen(3636, function () {
     console.log('Server is running on http://localhost:3636');

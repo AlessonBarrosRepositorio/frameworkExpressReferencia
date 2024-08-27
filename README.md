@@ -14,3 +14,7 @@
 
 ### versão do npm é 10.5.2
 ### versão do node é 20.5.1
+
+### npx sequelize-cli model:generate --name ususario --attributes login:string,senha:string
+
+### npx sequelize-cli db:migrate

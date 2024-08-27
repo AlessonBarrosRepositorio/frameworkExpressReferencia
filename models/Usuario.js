@@ -8,17 +8,14 @@ module.exports = (sequelize, DataTypes) => {
      * Helper method for defining associations.
      * This method is not a part of Sequelize lifecycle.
      * The `models/index` file will call this method automatically.
-   /
+     */
     static associate(models) {
-      Usuario.hasMany(models.Tabela);
-      Usuario.hasMany(models.Lixeira);
-    }*/
+      // define association here
+    }
   }
   Usuario.init({
-    nome: DataTypes.TEXT,
-    email: DataTypes.TEXT,
-    celular: DataTypes.TEXT,
-    senha: DataTypes.TEXT
+    login: DataTypes.STRING,
+    senha: DataTypes.STRING
   }, {
     sequelize,
     modelName: 'Usuario',
